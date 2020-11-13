@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/works_Memories.css" rel="stylesheet" />
+    <link rel="SHORTCUT ICON" href="../img/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Noto+Serif:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Memories Of Matsuko</title>
+</head>
+<body>
+    <div class="loader" id="loader"></div>
+    <div>
+        <div class="nav">
+            <div id="menu">
+                <input type="checkbox" id="menuicon">
+                <label for="menuicon">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </label>
+                <div id="sidebar">
+                    <div class="line"> </div>
+                    <div id="overlay">
+                        <nav id="OverlayMenu">
+                            <p class="Index">INDEX.</p>
+                            <ul class="flex_con">
+                                <li><a href="./main.html" id="indexPage"><p class="IndexNumber">01</p><p class="Sub">Main</p><p class="IndexUse">JavaScript, HTML, CSS</p></a></li>
+                                <li><a href="./works.html" id="workPage"><p class="IndexNumber2">02</p><p class="Sub">Works</p><p class="IndexUse">JavaScript, HTML, CSS, C#, Unity, Illustration</p></a></li>
+                                <li><a href="./about.html" id="AboutPage"><p class="IndexNumber">03</p><p class="Sub">About 乂</p></a></li>
+                                <li><a href="./contact.html" id="ContactPage"><p class="IndexNumber2">04</p><p class="Sub">Contact 乂</p></a></li>
+                            </ul>
+                            <div class="footerColor" id="footerColor">
+                                <p>    Designed by Yeseul.<br />
+                                    Kaywon Art&Design Univ.<br />
+                                    Copyrightⓒ2020 Cho Yeseul (@132.o3) Co., Ltd. All rights reserved.
+                                </p>
+                            </div>
+                            <div class="MenuCircle"></div>
+                            <img class="imageCircle" id="_menu0" src="../img/imageCircle.png" />
+                        </nav>
+                    </div>
+                </div>
+                <div class="loader" id="loader"></div>
+            </div>
+            <a href="../html/works.html"><div class="_line"></div></a>
+            <a href="../html/Moonassi.html"><div class="_line2"></div></a>
+    </div>
+    <div class="backcircle">
+        <img class="imageCircle" src="../img/imageCircle.png" />
+    </div>
+    <div class="ContentsMenu">
+        <ul class="_ContentMenu">
+            <li class="_1" id="dynamic"></li>
+            <li class="_2"><strong>Use</strong> - Adobe Illustration</li>
+            <li class="_3">
+                ‘혐오스런 마츠코의 일생 영화’를 보고 느낀바를 백터로 작업했습니다.<br/>
+                실제 인쇄가 목적이었기 때문에 RGB가 아닌 CMYK로 작업을 하였고,
+                크기는 1280x800px로,
+                72ppi로 작업하였습니다.
+                일러스트레이터를 사용하였고, 영화의 느낌을 살리기 위해 비비드한 컬러 사용과 
+                난잡한 화면 구성을 목표로 했습니다.
+            </li>
+        </ul>
+    </div>
+    <div class="wrap-images">
+        <img id="ContentsImg" class="imageContents1 image zoom" src="../img/Contents1.jpg" />
+        <!-- <img id="ContentsImg" class="imageContents2" src="../img/Contents1_1.jpg" />
+        <img id="ContentsImg" class="imageContents3" src="../img/Contents1_2.jpg" /> -->
+    </div>
+    <div class="download">
+        <img class="_imageCircle2" src="../img/imageCircle 2.png" />
+        <a href="https://drive.google.com/file/d/12fjnFLic8LloM3k87cI1Bl6w5IeiFzZL/view?usp=sharing" ><p class="_download">EXPLORE</p></a>
+    </div>
+    <script src="../vendor/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/script.js"  type="text/javascript"></script>
+    <script src="../js/zoomIn.js"  type="text/javascript"></script>
+    <script src="../js/worksClick.js"  type="text/javascript"></script>
+    <script src="../js/script_memories.js"  type="text/javascript"></script>
+    <script src="../js/cursorImageHover.js"  type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js"></script>
+</body>
+<footer>
+    <div class="footerColor">
+        <p>    Designed by Yeseul.<br />
+            Kaywon Art&Design Univ.<br />
+            Copyrightⓒ2020 Cho Yeseul (@132.o3) Co., Ltd. All rights reserved.
+        </p>
+    </div>
+</footer>
+</html>

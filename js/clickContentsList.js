@@ -22,7 +22,7 @@ console.log("Script Load");
                 // $_4.remove();
             },1000);
             $('.nav').append('<div class="_line"></div>');
-            $('.nav').append('<a href="../html/MemoriesOfMatsuko.html"><div class="_line2"></div></a>');
+            // $('.nav').append('<a href="../html/MemoriesOfMatsuko.html"><div class="_line2"></div></a>');
             $('title').append('<meta http-equiv="refresh" content="2; url=../html/MemoriesOfMatsuko.html">');
         });
         $_2.on('click',function(){
@@ -40,7 +40,7 @@ console.log("Script Load");
                 // $_4.remove();
             },1000);
             $('.nav').append('<div class="_line"></div>');
-            $('.nav').append('<a href="../html/Moonassi.html"><div class="_line2"></div></a>');
+            // $('.nav').append('<a href="../html/Moonassi.html"><div class="_line2"></div></a>');
             $('title').append('<meta http-equiv="refresh" content="2; url=../html/Moonassi.html">');
         });
         $_3.on('click',function(){
@@ -58,7 +58,7 @@ console.log("Script Load");
                 // $_4.remove();
             },1000);
             $('.nav').append('<div class="_line"></div>');
-            $('.nav').append('<a href="../html/Takkoyakki.html"><div class="_line2"></div></a>');
+            // $('.nav').append('<a href="../html/Takkoyakki.html"><div class="_line2"></div></a>');
             $('title').append('<meta http-equiv="refresh" content="2; url=../html/Takkoyakki.html">');
         });
         $_4.on('click',function(){
@@ -76,7 +76,7 @@ console.log("Script Load");
                 // $_4.remove();
             },1000);
             $('.nav').append('<div class="_line"></div>');
-            $('.nav').append('<a href="../html/WhatYum.html"><div class="_line2"></div></a>');
+            // $('.nav').append('<a href="../html/WhatYum.html"><div class="_line2"></div></a>');
             $('title').append('<meta http-equiv="refresh" content="2; url=../html/WhatYum.html">');
         });
     });

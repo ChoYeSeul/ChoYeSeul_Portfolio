@@ -24,5 +24,16 @@ console.log("Script Load");
                 console.log('마우스 아웃');
             }
         );
+        $('._line0').hover(
+            function(){
+                $('.loader').addClass('cursorImageHover');
+                $('.loader').append('<span class="click">Prev</span>');
+                console.log('마우스오버');
+            },function(){
+                $('.loader').removeClass('cursorImageHover');
+                $('.click').remove();
+                console.log('마우스 아웃');
+            }
+        );
     });
 })(jQuery);

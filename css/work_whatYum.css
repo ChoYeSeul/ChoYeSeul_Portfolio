@@ -465,6 +465,7 @@ footer{
         top: 20px;
       }
       ._download{
+        color: black;
         /* vertical-align: middle; */
         position:absolute;
         height:10px; top: 0; bottom:0; margin-top:auto; margin-bottom:auto;
@@ -486,6 +487,18 @@ footer{
         to {
             transform:rotate(360deg);
         }
+      }
+      ._line0{
+        width:20px;
+        height:20px;
+        border-top: 2px solid rgb(0, 0, 0);
+        border-left: 2px solid rgb(0, 0, 0);
+        transform: rotate(405deg);
+        display: inline-block;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        z-index: 99999;
       }
       ._line2{
         width:20px;

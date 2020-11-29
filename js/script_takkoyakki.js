@@ -27,9 +27,11 @@ function dynamic(randomArr){
         setTimeout(function(){
             dynamic(randomArr);
         },80);
-    }else{
-        setTimeout(resetTyping, 1700);
     }
+    // 계속 반복 - 꺼놓자~!!~!~!
+    // else{
+    //     setTimeout(resetTyping, 1700);
+    // }
 }
 
 dynamic(randomString());

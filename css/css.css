@@ -303,7 +303,10 @@ a:hover{
     
 }
 #footerColor{
-    padding-top: 25%;
+    /* padding-top: 30%; */
+    position: absolute;
+    /* bottom: -120%; */
+    top: 175%;
     opacity: 0;
 }
 .IndexNumber{
@@ -399,7 +402,11 @@ a:hover{
 /* footer */
 
 footer{
-    padding: 830px 0px 0px 6%;
+    /* padding: 830px 0px 0px 6%; */
+    position: absolute;
+    bottom: 15%;
+    left: 7%;
+    width: 480px;
     display: inline-block;
     /* bottom: 3%; */ 
     font-size: 14px;

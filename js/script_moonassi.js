@@ -27,9 +27,10 @@ function dynamic(randomArr){
         setTimeout(function(){
             dynamic(randomArr);
         },80);
-    }else{
-        setTimeout(resetTyping, 1700);
     }
+    // else{
+    //     setTimeout(resetTyping, 1700);
+    // }
 }
 
 dynamic(randomString());

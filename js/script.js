@@ -160,14 +160,14 @@ console.log("Script Load");
             $('.loader').css('box-shadow', 'inset 0 0 0 2px chartreuse');
             // $('.loader').css('background-color', 'chartreuse');
             $('img').removeClass('invertImage');
-            $('#_0').css('animation', '_0spin 2s linear infinite');
-            $('#_1').css('animation', '_1spin 2s linear infinite');
-            $('#_2').css('animation', '_2spin 2s linear infinite');
-            $('#_3').css('animation', '_3spin 2s linear infinite');
-            $('#_4').css('animation', '_4spin 2s linear infinite');
-            $('#_5').css('animation', '_5spin 2s linear infinite');
-            $('#_6').css('animation', '_6spin 2s linear infinite');
-            $('#_7').css('animation', '_7spin 2s linear infinite');
+            $('#_0').css('animation', '_0spin 3s linear infinite');
+            $('#_1').css('animation', '_1spin 3s linear infinite');
+            $('#_2').css('animation', '_2spin 3s linear infinite');
+            $('#_3').css('animation', '_3spin 3s linear infinite');
+            $('#_4').css('animation', '_4spin 3s linear infinite');
+            $('#_5').css('animation', '_5spin 3s linear infinite');
+            $('#_6').css('animation', '_6spin 3s linear infinite');
+            $('#_7').css('animation', '_7spin 3s linear infinite');
             $('#_1').hover(function(){
                 $('.loader').css('background-color', 'chartreuse');
             },function(){

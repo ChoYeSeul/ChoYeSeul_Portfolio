@@ -32,8 +32,10 @@ function dynamic(randomArr){
     //     setTimeout(resetTyping, 1700);
     // }
 }
-
-dynamic(randomString());
+setTimeout(function(){
+    dynamic(randomString())
+},600);
+// dynamic(randomString());
 
 console.log(selectString);
 // 커서 깜빡임 효과

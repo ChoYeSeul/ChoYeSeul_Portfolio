@@ -33,7 +33,9 @@ function dynamic(randomArr){
     // }
 }
 
-dynamic(randomString());
+setTimeout(function(){
+    dynamic(randomString())
+},600);
 
 console.log(selectString);
 // 커서 깜빡임 효과

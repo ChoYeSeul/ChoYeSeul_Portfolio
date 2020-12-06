@@ -6,7 +6,7 @@ var selectString = stringArr[Math.floor(Math.random() * stringArr.length)];
 var selectStringArr = selectString.split("");
 
 function randomString(){
-    var stringArr = ["Takkoyakki Adventure"]
+    var stringArr = ["Takkoyakki Adventure"];
 
     var selectString = stringArr[Math.floor(Math.random() * stringArr.length)];
     // 단어 하나하나가 쪼개져서 배열로 된다. - split
@@ -16,17 +16,17 @@ function randomString(){
 }
 
 // 타이핑 리셋
-function resetTyping(){
-    target.textContent = '';
-    dynamic(randomString());
-}
+// function resetTyping(){
+//     target.textContent = '';
+//     dynamic(randomString());
+// }
 // 한글자씩 텍스트 출력 함수
 function dynamic(randomArr){
     if(randomArr.length > 0){
         target.textContent += randomArr.shift();
         setTimeout(function(){
             dynamic(randomArr);
-        },80);
+        },100);
     }
     // 계속 반복 - 꺼놓자~!!~!~!
     // else{
@@ -34,8 +34,10 @@ function dynamic(randomArr){
     // }
 }
 
-dynamic(randomString());
-
+setTimeout(function(){
+    dynamic(randomString())
+},600);
+// setTimeout(dynamic(randomString()), 600);
 console.log(selectString);
 // 커서 깜빡임 효과
 function blink(){

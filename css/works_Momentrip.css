@@ -224,7 +224,7 @@ nav > ul > li:nth-child(3){
 /* footer */
 
 footer{
-    padding: 830px 0px 0px 6%;
+    padding: 830px 0px 0px 0px;
     display: inline-block;
     /* bottom: 3%; */ 
     font-size: 14px;
@@ -451,6 +451,7 @@ footer{
   }
     /* download */
     .download{
+      /* margin-right: 20px; */
         width: 100px;
         height: 100px;
         position: relative;
@@ -459,7 +460,7 @@ footer{
         vertical-align: middle;
         font-weight: middle;
         display: inline-block;
-        left: 80%;
+        left: 75%;
         font-size: 12px;
         top: 20px;
       }
@@ -468,7 +469,7 @@ footer{
         /* vertical-align: middle; */
         position:absolute;
         height:10px; top: 0; bottom:0; margin-top:auto; margin-bottom:auto;
-        left: 25%;
+        left: 37%;
       }
       ._imageCircle2{
         position: relative;
@@ -479,6 +480,37 @@ footer{
         will-change: spinCircle;
         transform: none;
       }
+       /* download */
+    .download2{
+      margin-left: 20px;
+      width: 100px;
+      height: 100px;
+      position: relative;
+      border-radius: 50%;
+      background-color:  chartreuse;
+      vertical-align: middle;
+      font-weight: middle;
+      display: inline-block;
+      left: 77%;
+      font-size: 12px;
+      top: 20px;
+    }
+    ._download2{
+      color: black;
+      /* vertical-align: middle; */
+      position:absolute;
+      height:10px; top: 0; bottom:0; margin-top:auto; margin-bottom:auto;
+      left: 12%;
+    }
+    ._imageCircle2{
+      position: relative;
+      left: -5%;
+      top: -5.5%;
+      width: 7rem;
+      animation: spinCircle 3s linear infinite;
+      will-change: spinCircle;
+      transform: none;
+    }
       @keyframes spinCircle {
         from {
             transform:rotate(0);
@@ -541,7 +573,11 @@ footer{
       transition: transform 250ms;
     }
     .download > a:hover{
-      color: white;
+      /* color: white; */
+      font-weight: bolder;
+    }
+    .download2 > a:hover{
+      /* color: white; */
       font-weight: bolder;
     }
 

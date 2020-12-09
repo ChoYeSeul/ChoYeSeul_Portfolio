@@ -431,15 +431,18 @@ footer{
 .ContentsMenu > ul > li:nth-child(1){
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 700;
+    color: rgb(97, 119, 89);
   }
 .ContentsMenu > ul > li:nth-child(2){
     font-family: 'Noto Serif', serif;
 }
 .ContentsMenu > ul > li:nth-child(3){
       font-family: 'Heebo', sans-serif;
+      color: rgb(97, 119, 89);
 }
 .ContentsMenu > ul > li:nth-child(4){
   font-family: 'Heebo', sans-serif;
+  color: rgb(97, 119, 89);
 }
 .ContentsMenu > ul > li:nth-child(5){
   font-family: 'Heebo', sans-serif;
@@ -495,3 +498,16 @@ footer{
   padding-top: 30px;
 }
 
+/* listColor */
+.listColor > ul{
+  list-style: square;
+  position: absolute;
+  bottom: 10%;
+  right : 10%
+}
+.listColor > ul > li:nth-child(1){
+  color: #000000;
+}
+.listColor > ul > li:nth-child(2){
+  color: rgb(97, 119, 89);
+}

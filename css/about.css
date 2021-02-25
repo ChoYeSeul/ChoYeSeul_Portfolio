@@ -247,6 +247,11 @@ footer{
     color: white;
 }
 
+.footerColor > h1{
+  padding-bottom: 3%;
+  font-weight: bold;
+}
+
 
 /* 
   .gradient-purple-blue {

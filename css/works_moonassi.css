@@ -119,17 +119,18 @@ nav > ul > li:nth-child(3){
     font-size: 2rem;
     opacity: 0;
 }
-.footerColor{
-    /* padding: 40% 0; */
-    display: inline-block;
-    font-size: 14px;
-    color: rgb(133, 133, 133);
-    position: absolute;
-    
+.footerColor2{
+  /* padding: 40% 0; */
+  display: inline-block;
+  font-size: 14px;
+  color: rgb(133, 133, 133);
+  position: absolute; 
+  left: 5%;
+  padding-top: 25%;
 }
-#footerColor{
-    padding-top: 25%;
-    opacity: 0;
+.footerColor2 > h1{
+padding-bottom: 3%;
+font-weight: bold;
 }
 .IndexNumber{
     font-size: 10rem;
@@ -226,17 +227,27 @@ nav > ul > li:nth-child(3){
 /* footer */
 
 footer{
-    padding: 830px 0px 0px 6%;
-    display: inline-block;
-    /* bottom: 3%; */ 
-    font-size: 14px;
-    /* z-index: 9999999; */
+  /* padding: 50% 0px 0px 6%; */
+  display: inline-block;
+  /* position: absolute; */
+  /* display: inline; */
+  /* bottom: 3%;  */
+  font-size: 14px;
+  /* z-index: 9999999; */
 }
+/* *****************수정바람******************** */
 .footerColor{
-    color: rgb(133, 133, 133);
+position: absolute;
+bottom: 10%;
+left: 16%;
+  color: rgb(133, 133, 133);
 }
 .footerColorNav{
-    color: white;
+  color: white;
+}
+.footerColor > h1{
+padding-bottom: 3%;
+font-weight: bold;
 }
 
 
@@ -457,34 +468,35 @@ footer{
   }
     /* download */
     .download{
-        width: 100px;
-        height: 100px;
-        position: relative;
-        border-radius: 50%;
-        background-color:  chartreuse;
-        vertical-align: middle;
-        font-weight: middle;
-        display: inline-block;
-        left: 80%;
-        font-size: 12px;
-        top: 20px;
-      }
-      ._download{
-        color: black;
-        /* vertical-align: middle; */
-        position:absolute;
-        height:10px; top: 0; bottom:0; margin-top:auto; margin-bottom:auto;
-        left: 25%;
-      }
-      ._imageCircle2{
-        position: relative;
-        left: -5%;
-        top: -5.5%;
-        width: 7rem;
-        animation: spinCircle 3s linear infinite;
-        will-change: spinCircle;
-        transform: none;
-      }
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      border-radius: 50%;
+      background-color:  chartreuse;
+      vertical-align: middle;
+      font-weight: middle;
+      display: inline-block;
+      left: 80%;
+      font-size: 12px;
+      /* top: 20px; */
+      bottom: 10%;
+    }
+    ._download{
+      color: black;
+      /* vertical-align: middle; */
+      position:absolute;
+      height:10px; top: 0; bottom:0; margin-top:auto; margin-bottom:auto;
+      left: 24.5%;
+    }
+    ._imageCircle2{
+      position: relative;
+      left: -5%;
+      top: -5.5%;
+      width: 7rem;
+      animation: spinCircle 3s linear infinite;
+      will-change: spinCircle;
+      transform: none;
+    }
       @keyframes spinCircle {
         from {
             transform:rotate(0);

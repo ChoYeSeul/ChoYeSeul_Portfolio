@@ -2,6 +2,7 @@ console.log("Script Load");
 (function($) {
     $(document).ready(function() {
         console.log('jQuery Ready');
+        var $_0 = $('li._0');
         var $_1 = $('li._1');
         var $_2 = $('li._2');
         var $_3 = $('li._3');
@@ -9,16 +10,42 @@ console.log("Script Load");
         var $_5 = $('li._5');
         var $_6 = $('li._6');
 
-        $_1.on('click',function(){
+        $_0.on('click',function(){
             console.log('클릭했수다');
-            $_1.css('transform', 'translateY(285px)');
-            $_1.css('transition-delay', '0.8s');
+            $_0.css('transform', 'translateY(285px)');
+            $_0.css('transition-delay', '0.8s');
+            $_1.css('opacity', '0');
             $_2.css('opacity', '0');
             $_3.css('opacity', '0');
             $_4.css('opacity', '0');
             $_5.css('opacity', '0');
             $_6.css('opacity', '0');
             setTimeout(function(){
+                $_1.css('transform', 'translateX(10000px)');
+                $_2.css('transform', 'translateX(10000px)');
+                $_3.css('transform', 'translateX(10000px)');
+                $_4.css('transform', 'translateX(10000px)');
+                $_5.css('transform', 'translateX(10000px)');
+                $_6.css('transform', 'translateX(10000px)');
+                // $_3.remove();
+                // $_4.remove();
+            },1000);
+            $('.nav').append('<div class="_line"></div>');
+            // $('.nav').append('<a href="../html/MemoriesOfMatsuko.html"><div class="_line2"></div></a>');
+            $('title').append('<meta http-equiv="refresh" content="2; url=../html/NightPicnic.html">');
+        });
+        $_1.on('click',function(){
+            console.log('클릭했수다');
+            $_1.css('transform', 'translateY(285px)');
+            $_1.css('transition-delay', '0.8s');
+            $_0.css('opacity', '0');
+            $_2.css('opacity', '0');
+            $_3.css('opacity', '0');
+            $_4.css('opacity', '0');
+            $_5.css('opacity', '0');
+            $_6.css('opacity', '0');
+            setTimeout(function(){
+                $_0.css('transform', 'translateX(10000px)');
                 $_2.css('transform', 'translateX(10000px)');
                 $_3.css('transform', 'translateX(10000px)');
                 $_4.css('transform', 'translateX(10000px)');
@@ -35,12 +62,14 @@ console.log("Script Load");
             console.log('클릭했수다2');
             $_2.css('transform', 'translateY(160px)');
             $_2.css('transition-delay', '0.8s');
+            $_0.css('opacity', '0');
             $_1.css('opacity', '0');
             $_3.css('opacity', '0');
             $_4.css('opacity', '0');
             $_5.css('opacity', '0');
             $_6.css('opacity', '0');
             setTimeout(function(){
+                $_0.css('transform', 'translateX(10000px)');
                 $_1.css('transform', 'translateX(10000px)');
                 $_3.css('transform', 'translateX(10000px)');
                 $_4.css('transform', 'translateX(10000px)');
@@ -57,12 +86,14 @@ console.log("Script Load");
             console.log('클릭했수다');
             $_3.css('transform', 'translateY(20px)');
             $_3.css('transition-delay', '0.8s');
+            $_0.css('opacity', '0');
             $_2.css('opacity', '0');
             $_1.css('opacity', '0');
             $_4.css('opacity', '0');
             $_5.css('opacity', '0');
             $_6.css('opacity', '0');
             setTimeout(function(){
+                $_0.css('transform', 'translateX(10000px)');
                 $_2.css('transform', 'translateX(10000px)');
                 $_1.css('transform', 'translateX(10000px)');
                 $_4.css('transform', 'translateX(10000px)');
@@ -79,12 +110,14 @@ console.log("Script Load");
             console.log('클릭했수다');
             $_4.css('transform', 'translateY(-100px)');
             $_4.css('transition-delay', '0.8s');
+            $_0.css('opacity', '0');
             $_2.css('opacity', '0');
             $_3.css('opacity', '0');
             $_1.css('opacity', '0');
             $_5.css('opacity', '0');
             $_6.css('opacity', '0');
             setTimeout(function(){
+                $_0.css('transform', 'translateX(10000px)');
                 $_2.css('transform', 'translateX(10000px)');
                 $_3.css('transform', 'translateX(10000px)');
                 $_1.css('transform', 'translateX(10000px)');
@@ -101,12 +134,14 @@ console.log("Script Load");
             console.log('클릭했수다');
             $_5.css('transform', 'translateY(-185px)');
             $_5.css('transition-delay', '0.8s');
+            $_0.css('opacity', '0');
             $_2.css('opacity', '0');
             $_3.css('opacity', '0');
             $_1.css('opacity', '0');
             $_4.css('opacity', '0');
             $_6.css('opacity', '0');
             setTimeout(function(){
+                $_0.css('transform', 'translateX(10000px)');
                 $_2.css('transform', 'translateX(10000px)');
                 $_3.css('transform', 'translateX(10000px)');
                 $_1.css('transform', 'translateX(10000px)');
@@ -123,12 +158,14 @@ console.log("Script Load");
             console.log('클릭했수다');
             $_6.css('transform', 'translateY(-295px)');
             $_6.css('transition-delay', '0.8s');
+            $_0.css('opacity', '0');
             $_2.css('opacity', '0');
             $_3.css('opacity', '0');
             $_1.css('opacity', '0');
             $_5.css('opacity', '0');
             $_4.css('opacity', '0');
             setTimeout(function(){
+                $_0.css('transform', 'translateX(10000px)');
                 $_2.css('transform', 'translateX(10000px)');
                 $_3.css('transform', 'translateX(10000px)');
                 $_1.css('transform', 'translateX(10000px)');

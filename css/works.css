@@ -438,25 +438,26 @@ footer{
 .ContentsMenu > ul > li:nth-child(2){
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 700;
-    color: rgb(97, 119, 89);
   }
 .ContentsMenu > ul > li:nth-child(3){
     font-family: 'Noto Serif', serif;
 }
 .ContentsMenu > ul > li:nth-child(4){
       font-family: 'Heebo', sans-serif;
-      color: rgb(97, 119, 89);
 }
 .ContentsMenu > ul > li:nth-child(5){
   font-family: 'Heebo', sans-serif;
   color: rgb(97, 119, 89);
+  color: rgb(97, 119, 89);
 }
 .ContentsMenu > ul > li:nth-child(6){
   font-family: 'Heebo', sans-serif;
+  color: rgb(97, 119, 89);
 }
 .ContentsMenu > ul > li:nth-child(7){
       padding-bottom: 0;
       font-family: 'Open Sans', sans-serif;
+      color: rgb(97, 119, 89);
   }
 
   /* 연습연습 */

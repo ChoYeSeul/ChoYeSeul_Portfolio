@@ -36,7 +36,7 @@ console.log("Script Load");
         });
         $_1.on('click',function(){
             console.log('클릭했수다');
-            $_1.css('transform', 'translateY(285px)');
+            $_1.css('transform', 'translateY(-60px)');
             $_1.css('transition-delay', '0.8s');
             $_0.css('opacity', '0');
             $_2.css('opacity', '0');
@@ -60,7 +60,7 @@ console.log("Script Load");
         });
         $_2.on('click',function(){
             console.log('클릭했수다2');
-            $_2.css('transform', 'translateY(160px)');
+            $_2.css('transform', 'translateY(110px)');
             $_2.css('transition-delay', '0.8s');
             $_0.css('opacity', '0');
             $_1.css('opacity', '0');
@@ -84,7 +84,7 @@ console.log("Script Load");
         });
         $_3.on('click',function(){
             console.log('클릭했수다');
-            $_3.css('transform', 'translateY(20px)');
+            $_3.css('transform', 'translateY(-180px)');
             $_3.css('transition-delay', '0.8s');
             $_0.css('opacity', '0');
             $_2.css('opacity', '0');
@@ -108,7 +108,7 @@ console.log("Script Load");
         });
         $_4.on('click',function(){
             console.log('클릭했수다');
-            $_4.css('transform', 'translateY(-100px)');
+            $_4.css('transform', 'translateY(-285px)');
             $_4.css('transition-delay', '0.8s');
             $_0.css('opacity', '0');
             $_2.css('opacity', '0');
@@ -132,7 +132,7 @@ console.log("Script Load");
         });
         $_5.on('click',function(){
             console.log('클릭했수다');
-            $_5.css('transform', 'translateY(-185px)');
+            $_5.css('transform', 'translateY(30px)');
             $_5.css('transition-delay', '0.8s');
             $_0.css('opacity', '0');
             $_2.css('opacity', '0');
@@ -156,7 +156,7 @@ console.log("Script Load");
         });
         $_6.on('click',function(){
             console.log('클릭했수다');
-            $_6.css('transform', 'translateY(-295px)');
+            $_6.css('transform', 'translateY(190px)');
             $_6.css('transition-delay', '0.8s');
             $_0.css('opacity', '0');
             $_2.css('opacity', '0');

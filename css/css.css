@@ -419,6 +419,10 @@ footer{
     color: white;
 }
 
+.footerColor > h1{
+    padding-bottom: 3%;
+    font-weight: bold;
+}
 
 /* 
   .gradient-purple-blue {
@@ -586,6 +590,7 @@ footer{
     font-weight: lighter;
     left: 50%;
     transform: translate(-50%, 700%);
+    /* transform: translate(-50%, -50%); */
 }
 
 #text::after{

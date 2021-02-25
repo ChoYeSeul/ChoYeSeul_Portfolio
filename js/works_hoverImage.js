@@ -37,10 +37,10 @@ console.log("Script Load");
 
                 // $('#loader').remove('.loader');
                 $('#loader').css({
-                    'background' : 'url(../img/Contents1.jpg)',
+                    'background' : 'url(../img/Contents0.jpg)',
                     'background-size' : 100 + '% '+ 100 + '%',
-                    'width' : '10%',
-                    'height' : '25%',
+                    'width' : '15%',
+                    'height' : '15%',
                     'opacity' : '0.6',
                     'animation' : '',
                     'z-index' : '-999'

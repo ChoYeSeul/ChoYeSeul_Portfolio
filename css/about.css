@@ -465,9 +465,9 @@ footer{
   .Myphoto{
     position: absolute;
     display: inline-block;
-    left: 5%;
-    top: 5%;
-    width: 90%;
+    left: -20%;
+    top: 0%;
+    width: 140%;
   }
   .info{
     display: inline-block;

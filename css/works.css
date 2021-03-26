@@ -447,21 +447,21 @@ footer{
 }
 .ContentsMenu > ul > li:nth-child(5){
   font-family: 'Heebo', sans-serif;
-  color: rgb(97, 119, 89);
+  color:#725e5e;
 }
 .ContentsMenu > ul > li:nth-child(6){
   font-family: 'Heebo', sans-serif;
-  color: rgb(97, 119, 89);
+  color: #a8a8a8;
 }
 .ContentsMenu > ul > li:nth-child(7){
       /* padding-bottom: 0; */
       font-family: 'Open Sans', sans-serif;
-      color: rgb(97, 119, 89);
+      color: #95a38a;
   }
   .ContentsMenu > ul > li:nth-child(8){
     padding-bottom: 0;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(97, 119, 89);
+    color: #95a38a;
 }
 
   /* 연습연습 */
@@ -517,9 +517,18 @@ footer{
   bottom: 10%;
   right : 10%
 }
+.listColor > ul > li{
+  padding-bottom: 10px;
+}
 .listColor > ul > li:nth-child(1){
   color: #000000;
 }
 .listColor > ul > li:nth-child(2){
-  color: rgb(97, 119, 89);
+  color: #725e5e;
+}
+.listColor > ul > li:nth-child(3){
+  color: #a8a8a8;
+}
+.listColor > ul > li:nth-child(4){
+  color: #95a38a;
 }

@@ -531,5 +531,61 @@ console.log("Script Load");
         });
             console.log('마우스 오버');
     });
+
+
+    // _7 에 대한 스크립트 _ ****2021. 03. 26 수정****
+
+    $(function(){
+        $('._7').mouseover(function(){
+            $(document).mousemove(function(e) {
+                mouseX = e.pageX;
+                mouseY = e.pageY;
+                // $('#loader').remove('.loader');
+                $('#loader').css({
+                    'background' : 'url(../img/Contents7.jpg)',
+                    'background-size' : 100 + '% '+ 100 + '%',
+                    'width' : '15%',
+                    'height' : '15%',
+                    'opacity' : '0.6',
+                    'animation' : '',
+                    'z-index' : '-999'
+                });
+                $('.loader').css({
+                    'animation' : 'none',
+                    'border-radius' : 0 + 'px',
+                    'box-shadow' : 'none',
+                });
+                $('body').css({
+                    'cursor' : 'pointer'
+                });
+            });
+                console.log('마우스 오버');
+        });
+      });
+
+      $('._7').mouseout(function(){
+        $(document).mousemove(function(e) {
+            mouseX = e.pageX;
+            mouseY = e.pageY;
+            $('#loader').css({
+                'background' : 'none',
+                'background-size' : 'none',
+                'width' : 70 + 'px',
+                'height' : 70 + 'px',
+                'opacity' : 'none',
+                'z-index' : '999'
+            });
+            $('.loader').css({
+                'animation' : '3s bordertl linear infinite',
+                'border-radius' : 100 + 'px',
+                'box-shadow' : 'inset 0 0 0 2px chartreuse',
+                'animation' : '3s bordertl linear infinite,4s border1 linear infinite,5.6s border2 linear infinite,3.3s border3 linear infinite,3s rotate linear infinite,2s hover ease-in-out infinite'
+            });
+            $('body').css({
+                'cursor' : 'none'
+            });
+        });
+            console.log('마우스 아웃');
+    });
 });
 })(jQuery);
